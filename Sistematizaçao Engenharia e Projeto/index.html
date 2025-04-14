@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eventix - Organizador de Eventos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>David Bennet EVENTOS
+    </h1>
+    <p class="slogan">O evento que você sempre sonhou!!!</p>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <h2>Bem-vindo a David EVENTOS LTDA</h2>
+      <p>Organize seus eventos de forma rápida e prática. Adicione detalhes como data, tipo de evento e número de participantes. Perfeito para casamentos, festas, eventos empresariais e muito mais!</p>
+    </section>
+
+    <section class="form-section">
+      <h2>Adicione um novo evento</h2>
+      <div class="form">
+        <input type="text" id="eventInput" placeholder="Nome do Evento" />
+        <input type="date" id="eventDate" />
+        <input type="number" id="eventPeople" placeholder="Número de Pessoas" min="1" />
+        <select id="eventType">
+          <option value="">Tipo de Evento</option>
+          <option value="Casamento">Casamento</option>
+          <option value="Festa">Festa</option>
+          <option value="Empresarial">Empresarial</option>
+          <option value="Reunião">Reunião</option>
+          <option value="Outros">Outros</option>
+        </select>
+        <button onclick="addEvent()">Adicionar Evento</button>
+      </div>
+    </section>
+
+    <section class="list-section">
+      <h2>📋 Lista de Eventos</h2>
+      <ul id="eventList"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Sistematização David Nora Bennet</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
