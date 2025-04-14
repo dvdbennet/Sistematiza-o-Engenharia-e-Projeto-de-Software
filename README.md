@@ -3,7 +3,7 @@ Landing Page Organização de Eventos
 ## Como Executar Localmente
 
 . Clone este repositório ou baixe os arquivos:
-git clone hhtps...
+git clone https://github.com/dvdbennet/Sistematiza-o-Engenharia-e-Projeto-de-Software
 . Abra o arquivo index.html no seu navegador de preferência
 
 ## Landingpage de Organização de Eventos
